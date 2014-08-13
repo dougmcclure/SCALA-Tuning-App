@@ -1,0 +1,77 @@
+{
+    "network": {
+        "servers": [
+            "10.10.10.1:5043"
+        ],
+        "ssl certificate": "/etc/pki/tls/certs/logstash-forwarder.crt",
+        "ssl key": "/etc/pki/tls/private/logstash-forwarder.key",
+        "ssl ca": "/etc/pki/tls/certs/logstash-forwarder.crt",
+        "timeout": 15
+    },
+    "files": [
+        {
+            "paths": [
+                "/opt/scala/LogAnalysis/DataForwarders/EIFReceivers/logs/UnityEifReceiver_eif_inst_1.log"
+            ],
+            "fields": {
+                "type": "eif1-r1"
+            }
+        },
+        {
+            "paths": [
+                "/opt/scala/LogAnalysis/DataForwarders/EIFReceivers/logs/UnityEifReceiver_eif_inst_2.log"
+            ],
+            "fields": {
+                "type": "eif1-r2"
+            }
+        },
+        {
+            "paths": [
+                "/opt/scala/LogAnalysis/DataForwarders/EIFReceivers/logs/UnityEifReceiver_eif_inst_3.log"
+            ],
+            "fields": {
+                "type": "eif1-r3"
+            }
+        },
+        {
+            "paths": [
+                "/opt/scala/LogAnalysis/DataForwarders/EIFReceivers/logs/UnityEifReceiver_eif_inst_4.log"
+            ],
+            "fields": {
+                "type": "eif1-r4"
+            }
+        },
+        {
+            "paths": [
+                "/opt/scala/LogAnalysis/DataForwarders/EIFReceivers/logs/UnityEifReceiver_eif_inst_5.log"
+            ],
+            "fields": {
+                "type": "eif1-r5"
+            }
+        },
+        {
+            "paths": [
+                "/opt/scala/LogAnalysis/DataForwarders/EIFReceivers/logs/UnityEifReceiver_eif_inst_6.log"
+            ],
+            "fields": {
+                "type": "eif1-r6"
+            }
+        },
+        {
+            "paths": [
+                "/opt/scala/LogAnalysis/DataForwarders/EIFReceivers/logs/UnityEifReceiver_eif_inst_7.log"
+            ],
+            "fields": {
+                "type": "eif1-r7"
+            }
+        },
+        {
+            "paths": [
+                "/opt/scala/LogAnalysis/DataForwarders/EIFReceivers/logs/UnityEifReceiver_eif_inst_8.log"
+            ],
+            "fields": {
+                "type": "eif1-r8"
+            }
+        }
+    ]
+}
