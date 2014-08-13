@@ -3,6 +3,8 @@ SCALA-Tuning-App
 
 Example logstash, logstash-forwarder and kibana configurations for consuming various logs from a SCALA environment to help with tuning and optimizing a SCALA Log Analsyis solution
 
+Linke to blog post and screenshot: http://dougmcclure.net/blog/2014/08/ibm-log-analysis-scala-tuning-app-v1/
+
 scala-unity-eif-receiver-logstash.conf
 
 Example configuration for consuming the distributed EIF receiver logs (UnityEifReceiver_eif_inst_N.log), dealing with multilines, parsing into structured fields using grok and extracting metrics from within.
